@@ -460,52 +460,6 @@ body {
   height: 178px;
   padding: 10px;
 }
-.accordiona{
-  width: 800px;
-  /* 中央揃え */
-  margin: 0 auto;
-}
-
-.accordiona .contentm {
-  position: relative;
-  margin: 10px 20px;
-}
-
-.accordiona .contentm .label {
-  position: relative;
-  padding: 10px;
-  background: #ff7974;
-  color: #fff;
-  cursor: pointer;
-}
-.accordiona .contentm .label::before {
-  content: '+';
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  font-size: 1.5em;
-}
-.accordiona .contentm.active .label::before {
-  content:'-';
-  font-size: 50px;
-  top: 40%;
-  right: 20px;
-}
-.accordiona .contentm .content {
-  position: relative;
-  background: #fff;
-  height: 0;
-  color: #333;
-  font-size: 22px;
-  overflow: hidden;
-  transition: 0.5s;
-  overflow-y: auto;
-}
-.accordiona .contentm.active .content {
-  height: 230px;
-  padding: 10px;
-}
 .speaker-session {
   margin-top: 30px;
   font-size: 30px;
